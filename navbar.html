@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Navbar</title>
+
+    <!-- Bootstrap -->
+     <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="styles.css" >
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+      
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      
+          <div class="container-fluid">
+              
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                </button>
+                  <a class="navbar-brand" href="index.html">Brand</a>
+              </div>
+              
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+              
+                  <ul class="nav navbar-nav">
+                  
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Link</a></li>
+                      
+                      <li class="dropdown">
+                      <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button"> Dropdown <span class="caret"> </span></a>
+                          
+                          <ul class="dropdown-menu">
+                          
+                              <li><a href=""> Sub menu item</a></li>
+                              <li><a href=""> Sub menu item 2</a></li>
+                              <li><a href=""> Sub menu item 3</a></li>
+                              
+                              <li role="separator" class="divider"></li>
+                             <li><a href=""> Sub menu item 4</a></li>
+                          
+                          </ul>
+                          
+                      </li>
+                      
+                      
+                  </ul>
+              
+                  <form class="navbar-form navbar-left" role="search">
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search Site..." >
+                             </div>
+                      <button type="submit" class="btn btn-primary">Go!</button>
+                  </form>
+                  
+                  <ul class="nav navbar-nav navbar-right">
+                       <li><a href="">Side link</a></li>
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Account info<span class="caret"></span></a>
+                      
+                           <ul class="dropdown-menu">
+                               <li><a href="">Update security</a></li>
+                                <li><a href="">Edit profile</a></li>
+                                <li><a href="">Logout</a></li>
+                           </ul>
+                     
+                      </li>
+                  </ul>
+                  
+              </div>
+              
+          </div>
+      </nav>
+      <div class="container">
+       
+            <div class="page-header">
+          <h1>Bootstrap Navbar</h1>
+          <p class="lead"> Oh what do we have here? a sexy navbar!</p>
+                
+           </div>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iusto temporibus quos eos debitis vel fuga totam? Atque quos sunt placeat impedit unde, quia iure aperiam voluptatibus quaerat ea neque.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, distinctio. Explicabo ducimus architecto rem numquam officiis libero adipisci consequuntur nulla distinctio minima repellendus magnam, minus inventore accusantium id similique earum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae a, suscipit ipsam repellendus aperiam! Omnis in explicabo, expedita nostrum soluta odio deleniti illo sed quisquam, cumque non est dolorem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt est modi odio. Quisquam porro debitis atque qui nisi consequuntur, odio modi, expedita officiis perferendis, quibusdam aspernatur eius fugiat delectus!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolores itaque quasi molestias accusantium voluptate unde deleniti eum placeat fugit consequatur. Autem voluptas provident, laudantium voluptate rem cupiditate perferendis sint?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ab maxime ex, aspernatur cumque asperiores molestias illum ad eius perferendis officiis vero nulla animi veritatis rerum temporibus iusto, ipsa optio!</p>
+      </div><!--container-->
+   
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

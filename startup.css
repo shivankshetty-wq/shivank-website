@@ -1,0 +1,811 @@
+html, 
+body,
+.cover {
+    height: 100%;
+    
+}
+.cover {
+    background: url(bootstrap/images/picture.png) top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20px ;
+    height: 950px;
+    box-shadow: inset 0 0 100px #000;
+    
+}
+.cover-text {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-family:  Georgia, Times, serif;
+    
+}
+
+.container0 {
+    margin-bottom: 50px;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+    
+}
+
+nav.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.logo-text {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-text img {
+  position: absolute;
+  left: -39px;        /* adjust as needed */
+    /* makes text readable */
+  height: 50px;
+  width: 50px;
+  
+}
+
+.logo-text span {
+  position: relative;
+
+}
+
+button {
+    margin-right: 500px;
+}
+
+#p3 {
+ margin-left: 250px;
+}
+
+#header {
+    margin-bottom: 90px;
+}
+
+.testimonial {
+    background: #222;
+    
+}
+
+blockquote {
+    border: none;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-size: 32px;
+    color: white;
+}
+
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    text-transform: capitalize;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #888;
+    margin-top: 40px;
+   
+}
+
+section {
+    padding: 100px;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+
+h2 + p {
+    text-align: center;
+    margin-top: -60px;
+    
+}
+
+
+
+#team {
+    background: url(bootstrap/images/fan.jpg) top left no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+   
+}
+
+footer {
+    background: #222;
+    position: static;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif
+}
+
+footer a {
+    color: hotpink;
+   
+}
+
+
+
+#image {
+ height: 30px;
+ width: 86px;
+  cursor: pointer;
+  margin-left: 190px;
+  margin-right: -355px;
+ 
+}
+
+ #image1 {
+  height: 38px;
+  width: 86px;
+  cursor: pointer;
+ margin-left: 309px;
+  margin-right: -355px;
+  
+}
+
+#images {
+     height: 30px;
+     width: 86px;
+     cursor: pointer;
+    margin-left: 310px;
+  margin-right: -360px;
+    
+     
+
+    
+}
+
+
+#p1 {
+    margin-left: 140px;
+}
+#pp {
+    margin-left: 120px;
+}
+
+
+
+
+.mb-3, .form-label {
+    margin: 0 0 10px
+}
+/* Media Queries */
+
+
+@media only screen and (max-width: 568px) {
+    .cover h1 {
+        font-size: 40px;
+    }
+    section {
+        padding: 20px;
+    }
+    
+    .p1 {
+         display: flex;
+        padding: 8px
+    }
+}
+
+@media (min-width: 868px) {
+  .responsive-input-btn {
+    display: flex;
+    margin-top: 150px;
+   
+  }
+    
+    .p1 {
+        display: flex;
+    }
+    
+    .row{
+          display: flex;
+    }
+
+  .responsive-input-btn input {
+    border-right: 0;
+    margin-left: 380px;
+     
+   
+    
+  }
+
+  .responsive-input-btn button {
+    border-left: 0;
+    white-space: nowrap;
+   
+  }
+}
+#contact {
+  padding: 60px 0;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin-bottom: 40px;
+  color: #777;
+}
+
+/* Fix Bootstrap 3 input-group height mismatch */
+.message-row {
+  display: table;
+  width: 100%;
+}
+
+.message-input,
+.message-btn {
+  display: table;
+
+}
+
+
+
+
+/* website */
+
+
+.elemator-widget-container {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+     display: block;
+    font-family: --apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+        Noto Color Emoji;
+    font-size: 16px;
+    font-weight: 400;
+    height: 590px;
+    line-height: 24px;
+     margin-block-end: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding: 0,0,0,0;
+    text-align: center;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    width: 1450px;
+}
+
+#h1{
+    box-sizing: border-box;
+    color: rgb(30, 30, 30);
+    display: block;
+    font-family: "Barlow condensed" sans-serif;
+    font-size: 112px;
+    font-weight: 600;
+    height: 488px;
+    letter-spacing: 0.7px;
+    stroke: black rgb(0,0,0);
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 1450px;
+    margin-block-end: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding: 0,0,0,0;
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+.cover-bio {
+    background: url(bootstrap/images/picture.jpg) top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20px ;
+    height: 950px;
+    box-shadow: inset 0 0 100px #000;
+    
+}
+
+.bio {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-family:  Georgia, Times, serif;
+}
+
+.tab-content {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+     display: flex;
+    column-gap: normal;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+     font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    justify-content: normal;
+    margin-top: -180px;
+    max-width: 100%;
+    min-width: 0;
+    order: 0;
+    position: relative;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    
+    
+}
+
+#photo {
+   aspect-ratio: auto 128/128;
+    border-bottom-color: rgb(51, 51, 51);
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100px;
+    border-image-source: none;
+    border-image-width: 1px;
+    border-left-color: rgb(51, 51, 51);
+    border-left-style: none;
+    border-left-width: 0;
+    border-right-color: rgb(51, 51, 51);
+    border-right-style: none;
+    border-right-width: 0;
+    border-top-color: rgb(51, 51, 51);
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+    margin-left: 299px;
+    display: inline-block;
+    max-width: 100%;
+    height: 310px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-align: center;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 310px
+    
+}
+
+
+.info,#about {
+    background-color: rgb(3, 31, 32);
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 610px;
+    justify-content: normal;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-top: 30px;
+    max-width: 100%;
+    min-width: 0;
+    order: 0;
+    position: relative;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    
+  
+    
+    
+}
+
+#info {
+    align-content: normal;
+    align-items: normal;
+    background-color: rgb(3, 31, 32);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: flex;
+    column-gap: normal;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: normal;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    max-width: 100%;
+    min-height: 0;
+    max-height: 1550px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 80px;
+    padding-inline-start: 80px;
+    position: relative;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    padding: 300px;
+    
+    
+    
+    
+}
+
+#title {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    box-sizing: border-box;
+    column-gap: 0;
+    display: block;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1px;
+     flex-wrap: nowrap;
+    color: white;
+    font-family: -apple-system, "Segoe UI","systerm-ui",Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 60px;
+    font-weight: 400;
+    justify-content: normal;
+    line-height: 24px;
+    order: 0;
+    position: relative;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1470px;
+    z-index: auto;
+    height: 50px;
+   
+    
+    
+}
+
+#main {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    column-gap: 20px;
+    display: flex;
+     flex-basis: auto;
+     flex-direction: row;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    height: 640px;
+    line-height: 24px;
+    max-width: min(100% 1024px);
+    min-width: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1140px;
+}
+
+
+#content-image {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(39, 6, 6);
+    background: url(bootstrap/images/bbb.jpg)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: rgb(51, 51, 51);
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+#content-p-p {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(54, 9, 9);
+    background: url(bootstrap/images/look.jpg)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: black;
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+#style {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#styles {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#sty {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.p1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+     display: block;
+    font-size: 16px;
+    font-family:Inter,sans-serif;
+    font-weight: 400;
+    height: 284px;
+     line-height: 24px;
+    margin-block-end: 14.4px;
+     margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+     text-align: start;
+    text-size-adjust: 100%;
+    
+}
+
+#content-img-p {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(54, 9, 9);
+    background: url(bootstrap/images/sand.png)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: rgb(51, 51, 51);
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 568px) {
+     #h1 {
+        font-size: 40px;
+    }
+    #info {
+        padding: 9px;}
+    
+      #about,.info {
+        padding: 5px;
+        margin: 5px
+    }
+}
+
+@media (min-width: 868px) {
+  .responsive-input-btn {
+    display: flex;
+    margin-top: 150px;
+   
+
+    }
+.message-input {
+    width: 65%;
+}
+
+.message-btn {
+  width: 130px;
+  margin-left: 206px;
+  white-space: nowrap;
+}
+

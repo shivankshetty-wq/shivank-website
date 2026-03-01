@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Form</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="styles.css" >
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <div id="container">
+      <div class="page-header">
+       
+          <h1>Bootstrap Form</h1>
+          <p class="lead">Lets work with some sexy forms, shall we? </p>
+       </div> 
+       <div class="row">   
+           <div class="col-sm-4">
+               <form>
+               <div class="form-group has-success">
+                   <label for="formName"> Your Name</label>
+                   <input type="text" id="formName" class="form-control">
+                </div>
+               <div class="form-group">
+                   <label for="formEmail"> Email</label>
+                   <input type="email" id="formEmail" class="form-control">
+                </div>
+               <div class="form-group">
+                   <label for="formMessage"> Message</label>
+                  <textarea class="form-control" rows="4" ></textarea>
+                </div>
+               <div class="checkbox">
+                   <label>
+                   <input type="checkbox">Checkbox
+                    </label>
+                   </div>
+                   <div class="radio">
+                   <label> 
+                       <input type="radio" name="formRadio"> Radio Input#1
+                     </label>
+                      <label>   
+                      <input type="radio" name="formRadio"> Radio Input#2 
+                    </label>
+                   </div>
+                   <button type="submit" class="btn btn-default">Submit</button>
+               </form>
+        
+           </div> 
+            <div class="col-sm-8">
+               <form class=" form-inline">
+               
+               <div class="form-group">
+                   <label for="loginEmail" class="sr-only">Email</label>
+                   <div class="input-group">
+                        <div class="input-group-addon"> @</div>
+                   <input id="loginEmail" type="email" class="form-control" placeholder="email address">
+                   </div>
+                 </div>
+                <div class="form-group">
+                   <label for="loginPassword" class="sr-only">Password</label>
+                   <input id="loginPassword" type="password" class="form-control" placeholder="password">
+                   
+                 </div>
+                   
+               <button type="submit" class="btn btn-danger">Submit</button>
+               </form>
+        
+           </div> 
+           
+      
+        </div><!--row-->
+         <br><br><hr>
+       <div class="row">
+             <div class="col-sm-6">
+             
+                 <form class="form-horizontal">
+                
+                     <div class="form-group">
+                        <label class="col-sm-4 control-label ">First Name</label>
+                          <div class="col-sm-8">
+                             <input type="text" class="form-control" disabled>
+                          </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label class="col-sm-4 control-label ">Last Name</label>
+                          <div class="col-sm-8">
+                             <input type="text" class="form-control">
+                          </div>
+                     </div>
+                
+                
+            </form>
+            
+            </div>
+           
+           </div><!--row-->
+     </div><!--container-->
+      
+          
+          
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+  </body>
+</html>

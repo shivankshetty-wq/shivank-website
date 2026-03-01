@@ -1,0 +1,584 @@
+html, 
+body,
+.cover {
+   
+   
+    background-size: cover;
+    color: white;
+    display: table;
+    width: 100%;
+    height: 950px;
+    box-shadow: inset 0 0 100px #000;
+}
+
+body {
+    height: 100;
+}
+
+footer {
+    background: #222;
+    position: static;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+    width:initial;
+}
+
+footer a {
+    color: hotpink;
+   
+}
+nav.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.logo-text {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-text img {
+  position: absolute;
+  left: -39px;        /* adjust as needed */
+    /* makes text readable */
+  height: 50px;
+  width: 50px;
+  
+}
+
+.logo-text span {
+  position: relative;
+
+}
+
+button {
+    margin-right: 500px;
+}
+
+
+#data0 {
+     box-sizing: border-box;
+     color: rgb(51,51,51);
+    display: block;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 515px;
+     text-size-adjust: 100%;
+    width: 1200px;
+    height: 990px;
+    
+  
+    
+    
+}
+
+#content {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background: url(bootstrap/images/fan.jpg) top left no-repeat;
+    background-size: cover;
+    background-position-x:  50%;
+    background-position-y: 50%;
+    color: rgb(51,51,51);
+    display: flex;
+    width: 1470px;
+    height: 999.999px;
+    box-sizing: border-box;
+     column-gap: normal;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+     font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+     row-gap: 0;
+     justify-content: normal;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    
+    
+    
+    
+}
+
+#main1 {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(51,51,51);
+    display: flex;
+    column-gap: 20px;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left:85px;
+    margin-right: 85px;
+    margin-bottom: 0;
+    max-width: 1280px;
+    justify-content: center;
+    padding-block-end: 15px;
+    padding-block-start: 10px;
+    padding-inline-end: 69px;
+    padding-inline-start: -190px;
+    padding-top: 80px;
+    row-gap: 20px;
+     box-sizing: border-box;
+
+    
+}
+#text-sub {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    height: 144px;
+    color: rgb(3,31,32);
+     display: flex;
+    column-gap: 20px;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+   
+   
+    
+}
+
+#text {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(51,51,51);
+    display: flex;
+    column-gap: 20px;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    height: 144px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left:55px;
+    margin-right: 85px;
+    margin-bottom: 0;
+    max-width: 100%;
+    position: relative;
+    row-gap: 20px;
+    order: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1200px;
+     box-sizing: border-box;
+    
+}
+
+#sub-text {
+    box-sizing: border-box;
+    color: rgb(51,51,51);
+    display: block;
+    column-gap: 20px;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    font-size: 16px;
+    height: 144px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0,0,0,0;
+    padding: 0,0,0,0,;
+    padding-right: 10px;
+     text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+     width: 1200px;
+}
+
+
+h1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "Barlow condensed" sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    height: 144px;
+    line-height: 72px;
+    letter-spacing: 0.7px;
+    stroke: black rgb(0,0,0);
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    margin-block-end: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-right: 150px;
+   
+    width: 1200px;
+    
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    padding-left:509px;
+    
+}
+
+
+
+#main {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    column-gap: 20px;
+    display: flex;
+     flex-basis: auto;
+     flex-direction: row;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    height: 640px;
+    line-height: 24px;
+    max-width: min(100% 1024px);
+    min-width: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1140px;
+}
+
+#sub-content {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    column-gap: 20px;
+    display: flex;
+     flex-basis: auto;
+     flex-direction: row;
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    height: 640px;
+    line-height: 24px;
+    max-width: min(100% 1024px);
+    min-width: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    row-gap: 0;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1140px;
+}
+
+
+
+
+#content-image {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(39, 6, 6);
+    background: url(bootstrap/images/bbb.jpg)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: rgb(51, 51, 51);
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+#content-p-p {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(54, 9, 9);
+    background: url(bootstrap/images/Layout%20density.jpg)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: black;
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+#style {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#styles {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#sty {
+     align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Barlow condensed" sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: start;
+    text-size-adjust: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.p1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+     display: block;
+    font-size: 16px;
+    font-family:Inter,sans-serif;
+    font-weight: 400;
+    height: 284px;
+     line-height: 24px;
+    margin-block-end: 14.4px;
+     margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+     text-align: start;
+    text-size-adjust: 100%;
+    
+    
+}
+
+#content-img-p {
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    background-color: rgb(54, 9, 9);
+    background: url(bootstrap/images/workspace.jpg)  top left no-repeat;
+    box-sizing: border-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    color: rgb(51, 51, 51);
+    column-gap: 10px;
+    display: flex;
+    flex-basis: auto;
+     flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1px;
+    flex-wrap: nowrap;
+    font-family: -apple-system, "Segoe UI","systerm-ui";
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    height: 620px;
+    line-height: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    min-height: 620px;
+    min-width: 0;
+    order: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-inline-end: 40px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+    position: relative;
+    row-gap: 10px;
+    text-align: start;
+    text-size-adjust: 100%;
+    transition-delay: 0s,0s,0s,0s;
+    transition-duration: 0.3s,0.3s,0.3s,0.4s;
+    transition-property: backgourd, border, box-shadow,transform;
+    transition-timing-function: ease,ease,ease,ease;
+    z-index: auto;
+    width: 366.672px
+}
+
+#image {
+ height: 30px;
+ width: 86px;
+  cursor: pointer;
+  margin-left: 190px;
+  margin-right: -355px;
+ 
+}
+
+ #image1 {
+  height: 38px;
+  width: 86px;
+  cursor: pointer;
+ margin-left: 309px;
+  margin-right: -355px;
+  
+}
+
+#images {
+     height: 30px;
+     width: 86px;
+     cursor: pointer;
+    margin-left: 310px;
+  margin-right: -360px;
+    
+     
+
+    
+}
+
+
+
