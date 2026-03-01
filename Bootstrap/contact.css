@@ -1,0 +1,127 @@
+html, 
+body,
+.cover {
+   
+    background: url(bootstrap/images/couchfriends.jpg) top left no-repeat;
+    background-size: cover;
+    color: white;
+    display: table;
+    width: 100%;
+    height: 950px;
+    box-shadow: inset 0 0 100px #000;
+}
+
+body {
+    height: 100;
+}
+
+footer {
+    background: #222;
+    position: static;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+    width:initial;
+}
+
+footer a {
+    color: hotpink;
+   
+}
+nav.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.logo-text {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-text img {
+  position: absolute;
+  left: -39px;        /* adjust as needed */
+    /* makes text readable */
+  height: 50px;
+  width: 50px;
+  
+}
+
+.logo-text span {
+  position: relative;
+
+}
+
+button {
+    margin-right: 500px;
+}
+
+#p3 {
+ margin-left: 250px;
+}
+
+#header {
+    margin-bottom: 90px;
+}
+
+.testimonial {
+    background: #222;
+    
+}
+
+#header {
+    margin-bottom: 90px;
+}
+   
+
+.container0 {
+    margin-bottom: 50px;
+    padding: 0 0 100px 550px;
+
+}
+#contact {
+ margin-bottom: 50px;
+ padding-bottom: 50px;
+}
+#image {
+ height: 30px;
+ width: 86px;
+  cursor: pointer;
+  margin-left: 190px;
+  margin-right: -355px;
+ 
+}
+
+ #image1 {
+  height: 38px;
+  width: 86px;
+  cursor: pointer;
+ margin-left: 309px;
+  margin-right: -355px;
+  
+}
+
+#images {
+     height: 30px;
+     width: 86px;
+     cursor: pointer;
+    margin-left: 310px;
+  margin-right: -360px;
+    
+     
+
+    
+}
+
+button {
+    margin-right: -100px;
+}
+
+ .responsive-input-btn input {
+    border-right: 0;
+    margin-left: 380px;
+}
+
+

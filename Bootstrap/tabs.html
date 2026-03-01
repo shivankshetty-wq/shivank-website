@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap tabs</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="styles.css" >
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+      <div class="container">
+
+      <div class="page-header">
+        <h1>Bootstrap tabs</h1>
+        <p class="lead">Easily toggle between different pieces of content.</p>
+      </div>
+          
+          <ul class="nav nav-tabs" role="tablist">
+              <li class="active"><a href="#about" role="tab" data-toggle="tab">About product</a></li>
+             <li><a href="#specs" role="tab" data-toggle="tab">Product specs</a></li>
+              <li><a href="#reviews" role="tab" data-toggle="tab">Reviews</a></li>
+              <li><a href="#purchase" role="tab" data-toggle="tab">Purchase</a></li>
+          </ul>
+        
+          <!--tab panes-->
+          <div class="tab-content">
+          
+              <div role="tabpanel" class="tab-pane fade in active" id="about">
+              
+                  <h2> About product</h2>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatem reiciendis vel dicta non unde perferendis culpa magnam ratione nesciunt sapiente adipisci ipsam dolorem deserunt soluta accusantium beatae, modi odit.</p>
+              
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="specs">
+              
+                  <h2> Product</h2>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatem reiciendis vel dicta non unde perferendis culpa magnam ratione nesciunt sapiente adipisci ipsam dolorem deserunt soluta accusantium beatae, modi odit.</p>
+              
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="reviews">
+              
+                  <h2> Reviews</h2>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatem reiciendis vel dicta non unde perferendis culpa magnam ratione nesciunt sapiente adipisci ipsam dolorem deserunt soluta accusantium beatae, modi odit.</p>
+              
+              </div>
+               <div role="tabpanel" class="tab-pane fade" id="purchase">
+              
+                  <h2> Purchase</h2>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatem reiciendis vel dicta non unde perferendis culpa magnam ratione nesciunt sapiente adipisci ipsam dolorem deserunt soluta accusantium beatae, modi odit.</p>
+              
+              </div>
+          
+          </div>
+          
+          
+      </div>
+      
+
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
